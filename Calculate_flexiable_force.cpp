@@ -628,7 +628,7 @@ void Flexible_MD(string init_coord_file, string save_info_folder, string init_ve
 }
 
 int main(){
-	string xyz_path_Hu = "/DATA/users/yanghe/projects/NeuralNetwork_PES/Identity_neural_network/Flexible_water_model/code/init.spce.xyz";
+	string xyz_path_Hu = "./init.spce.xyz";
 	string save_trj_path = "./";
 	
 	Flexible_MD(xyz_path_Hu,save_trj_path);
